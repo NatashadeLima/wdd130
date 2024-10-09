@@ -72,6 +72,12 @@ main {
     margin: 1rem;
 }
 
+aside h2 {
+  position: absolute;
+  top: 78px;
+  left: 70px;
+  color: #7a1d49;
+}
 
 aside {
   width: 20rem;
