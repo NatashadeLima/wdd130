@@ -7,6 +7,52 @@
     max-width: 1000px;
 }
 
+header img {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #92B9D6;
+
+}
+
+
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 50px;
+	height: auto;
+}
+
+.navigation {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--accent1-color); /* Dark background for the header */
+    color: white; /* Text color */
+    border: 2px solid var(--secondary-color); /* Cor da borda */
+
+}
+
+.navigation a {
+	list-style: none;
+    display: flex;
+    display: block;
+    color: navy;
+    padding: 20px solid var(--accent2-color);
+    text-decoration: none;
+    margin: 30px solid var(--accent3-color);
+    
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
 body {
     max-width: 1000px;
     color: var(--primary-color);
@@ -26,7 +72,6 @@ h2 {
     color: var(--primary-color);
     font-family: 'Roboto';
     margin-left: 0px;
-    text-align: left;
     margin-top: 0%;
 }
 
@@ -53,6 +98,7 @@ main img {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
 
 .hero img {
     margin-left: 660px;
@@ -92,19 +138,132 @@ article p {
     color: var(--accent2-color);
 }
 
-section img {
-    width: 500px;
-    margin-bottom: 0px;
+.adventures {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space out figures evenly */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+    margin: 20px 0; /* Margin for spacing around the section */
+
 }
 
-footer nav img {
-    float: left;
-    margin-right: 50px;
+.container img{
+    width: 200px;
+    display: inline-flex;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 10px;
+    
+    
+    
 }
+
+.flex-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid var(--primary-color); 
+    border-radius: 8px; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    margin-top: 30px;
+}
+
+.flex-container img {
+    margin-top: 30px;
+    margin-right: 20px;
+    max-width: 50%; 
+    height: auto; 
+    
+}
+
+.flex-container h2 {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 285px;
+    padding-right: 300px;
+    margin-bottom: 180px;
+    
+ 
+}
+
+.flex-container p {
+    margin-bottom: 10px;
+}
+
 
 h6 {
     position: absolute;
     margin-top: 220px;
     margin-left: 830px;
     color: rgba(254, 254, 254, 0.3);
+}
+
+section img {
+    display: flex;
+
+}
+
+figure img {
+    width: 100%; /* Make images responsive */
+    height: 100px; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+figure {
+    flex: 1; /* Each figure takes up equal space */
+    border: 2px solid var(--primary-color); 
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 10px; 
+    text-align: center;
+    background-color: var(--accent2-color); 
+}
+
+
+.sociallinks {
+    display: flex;
+    background-color: var(--accent1-color);
+    color: white;
+    justify-content: right;
+    gap: 0;
+    border: 2px solid var(--secondary-color); /* Cor da borda */
+    
+}
+
+.sociallinks img {
+    width: 30px;
+    height: auto; 
+    display: grid;
+    align-items: left;
+    background-color: var(--accent1-color);
+    padding-top: 6px;
+    padding-left: 5px;
+    gap: 0;
+    
+}
+
+.sociallinks a:last-child {
+    margin-right: 20px; /* Remove a margem do último ícone */
+}
+
+nav p {
+    text-align: left;
+    padding-top: 20px;
+    gap: 0;
+    color: 2px solid #024FAA;
+    
+}
+
+.adventures1 h2 {
+    border: 2px solid var(--secondary-color); /* Cor da borda */
+    background-color:  #92B9D6;
+    border-radius: 5px; /* Borda arredondada */
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 1px;
+    
 }
