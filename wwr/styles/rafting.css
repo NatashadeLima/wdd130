@@ -40,9 +40,9 @@ header img {
     display: flex;
     display: block;
     color: navy;
-    padding: 20px solid var(--accent2-color);
+    padding: 10px;
     text-decoration: none;
-    margin: 30px solid var(--accent3-color);
+    margin: 10px;
     
 }
 
@@ -237,7 +237,6 @@ figure {
     width: 30px;
     height: auto; 
     display: grid;
-    align-items: left;
     background-color: var(--accent1-color);
     padding-top: 6px;
     padding-left: 5px;
@@ -253,7 +252,7 @@ nav p {
     text-align: left;
     padding-top: 20px;
     gap: 0;
-    color: 2px solid #024FAA;
+    color: #024FAA;
     
 }
 
