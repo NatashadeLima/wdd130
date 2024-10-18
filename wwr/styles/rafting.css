@@ -123,8 +123,8 @@ main img {
     padding: 5px;
     margin-left: 0px;
     margin-right: 0px;
-    padding-left: 280px;
-    padding-right: 300px;
+    padding-left: 370px;
+    padding-right: 430px;
     background-color: rgba(254, 254, 254, 0.6) 
 }
 
@@ -233,6 +233,10 @@ figure {
     
 }
 
+.sociallinks li {
+    margin-top: 22px;
+}
+
 .sociallinks img {
     width: 30px;
     height: auto; 
@@ -265,4 +269,108 @@ nav p {
     text-align: center;
     margin-top: 1px;
     
+}
+
+
+/* FORMS */
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.);
+    padding: 1rem;
+}
+
+button {
+    margin: 2rem;
+    background-color: var(--accent3-color);
+    color: #ffffff;
+    border:  .1rem solid #000000;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.5rem;
+
+}
+
+button:hover {
+    background-color: rgb(226, 43, 10);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--accent-color);
+    font-size: 1.3rem;
+
+}
+
+
+label, input, button, select, textarea {
+    font-family: Roboto;
+}
+
+label {
+    text-align: left;
+    padding-right: 3rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] { 
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+form {
+    width: 650px;
+    margin: 0%;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+
+}
+
+.hero2 h2 {
+    border: 2px solid var(--secondary-color); /* Cor da borda */
+    background-color:  var(--accent3-color);
+    border-radius: 5px; /* Borda arredondada */
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.hero2 p {
+    border: 2px solid var(--secondary-color); /* Cor da borda */
+    background-color:  #ffffff;
+    border-radius: 5px; /* Borda arredondada */
+    padding: 5px;
+    text-align: left;
+    margin-top: 3px;
+    color: #000000;
+}
+
+.map h2 {
+    border: 2px solid var(--secondary-color); /* Cor da borda */
+    background-color: var(--accent3-color);
+    border-radius: 5px; /* Borda arredondada */
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
 }
